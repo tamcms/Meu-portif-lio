@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kode+Mono&display=swap');
+
+body{
+    background-color: rgb(20, 20, 31); /*Cor de fundo*/
+    font-family: Chakra Petch, sans-serif /*Fonte de todos os textos da página*/
+}
+
+.logo-iniciais{
+    font-size: 30px;
+    color:rgba(147, 111, 255, 0.808);
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 40px;
+     
+    
+}
+
+.menu-lista{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    gap: 30px; /*Espaço entre os itens da lista*/
+    list-style-type: none; /*Remover a marcação do item da lista*/
+}
+
+a { /*Remover a cor padrão dos links*/
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu{
+    margin: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: flex-end; /*Coloca tudo para o lado direito*/
+    border-bottom: 1px solid rgba(64, 64, 64, 0.8); /*Linha para separar o menu*/
+}
+
+.foto-perfil img{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;     
+    border-radius: 50%;
+    object-fit: cover; /*Mantem a imagem com uma boa resolução*/
+    
+}
+
+.cartao-perfil{
+    display: flex;
+    flex-direction: row-reverse; /*Inverte a posição dos elementos. Neste caso, a imagem vai para direita e o texto para esquerda*/
+    align-items: center; /*Alinha os elementos ao centro*/
+    justify-content: space-between; /*Para dar espaço entre os elementos*/
+    margin: auto 20px;
+    padding: 20px 15px;
+    border-bottom: 1px solid rgba(64, 64, 64, 0.8); /*Linha para separar o menu*/
+    color: white;
+}
+
+.cartao-perfil > main{
+    max-width: 600px; /*Delimita o espaço do texto*/
+}
+
+.ola-tamires h1{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.destaque{
+    color: rgb(111, 63, 255, 0.54);
+}
+
+.ola-tamires h4{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: normal; /*Remove o estilo bold padrão*/
+}
+
+.ola-tamires h6{
+    margin-bottom: 15px;  
+    font-weight: normal; 
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+.sobre{ /*Config. tudo dentro de "sobre"*/
+    display: flex;    
+    align-items: center; 
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(64, 64, 64, 0.8);      
+}
+
+.sobre p{ /*Config. somente a tag <p> de "sobre"*/
+    max-width: 550px;
+    margin: 30px;
+    padding: 0 15px; 
+}
+
+.sobre h2,
+.tecnologias h2,
+.contatos h2{ /*Config somente a tag <h2> dentro de "sobre" e "tecnologias"*/
+    color:rgb(111, 63, 255, 0.54);
+    margin-left: 30px;
+    padding: 0 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid rgba(64, 64, 64, 0.8);
+    padding-right: 50px ;
+        
+}
+
+.habilidade{
+   margin-left: 75px;
+   margin-top: 100px;
+}
+
+.tecnologias{
+    display: flex;
+    flex-wrap: wrap; /**Permite que eles passem para a linha seguinte quando faltar espaço na tela*/
+    gap: 50px; /*Define espaçamento entre os cards*/
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(64, 64, 64, 0.8);
+    
+}
+
+.card-tech{
+    width: 90px;
+    padding: 20px;
+    margin-top: 65px;
+    border: 1px solid rgba(64, 64, 64, 0.8);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card-tech img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.card-tech p{
+    margin-bottom: 0;
+}
+
+.contatos{
+    display: flex;  
+    border-bottom: 1px solid rgba(64, 64, 64, 0.8);   
+}
+
+.conversar p{
+    max-width: 550px;
+    margin: 30px;
+    padding: 0 15px;
+    border-right: 1px solid rgba(64, 64, 64, 0.8);    
+}
+
+.contato{
+    margin-left: 75px;
+    margin-top: 20px; 
+    
+}
+
+.rodape p{
+    font-size: 10px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
